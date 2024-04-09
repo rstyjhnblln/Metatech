@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.top-nav {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 1rem 1rem;
+}
+.bottom-nav {
+  background-color: #f2f2f2;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-logo {
+  max-width: 200px;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.link a:link {
+  color: #000;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.link a:hover {
+  color: #4760ff;
+}
+.primary-btn {
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.8rem 1.6rem;
+  background-color: #4760ff;
+  border: 3px solid #4760ff;
+  transition: all 0.3s ease;
+}
+.primary-btn:hover {
+  border: 3px solid #4760ff;
+  background-color: #5d73ff;
+}
+/* .secondary-btn {
+  color: #4760ff;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.8rem 1.6rem;
+  background-color: transparent;
+  border: 3px solid #4760ff;
+  transition: all 0.3s ease;
+}
+.secondary-btn:hover {
+  color: white;
+  border: 3px solid #4760ff;
+  background-color: #4760ff;
+} */
+.hero-container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.hero-left-content {
+  flex: 1;
+  text-align: left;
+  margin-bottom: 3.5rem;
+}
+.hero-right-content {
+  flex: 1;
+}
+.hero-right-content img {
+  max-width: 100%;
+  width: 500px;
+  margin-left: auto;
+}
+.hero-left-content h1 {
+  font-size: 3rem;
+  line-height: 1.3em;
+  margin-bottom: 1rem;
+}
+.hero-left-content p {
+  margin-bottom: 2rem;
+  padding-right: 7rem;
+  font-size: 1rem;
+  color: #252525;
+}
+.primary-btn {
+  margin-right: 1rem;
+}
+.right-content img {
+  width: 100%;
+  max-width: 450px;
+  margin-left: auto;
+}
+.partner-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 1.5rem 4rem;
+}
+.partner-logo img {
+  width: 90%;
+  height: auto;
+}
+.about-us-container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 6rem 1rem;
+}
+.about-us-left-content {
+  flex: 1 1 50%;
+}
+.about-us-left-content video {
+  width: 100%;
+  height: auto;
+}
+.about-us-right-content {
+  flex: 1 1 50%;
+  padding: 2rem;
+  margin: 0 auto;
+}
+.about-us-right-content h5 {
+  color: #4760ff;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.about-us-right-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.about-us-right-content p {
+  color: #252525;
+  margin-bottom: 1.5rem;
+}
+.featured-text-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.featured-text-item {
+  flex: 1 1 50%;
+  display: flex;
+  align-items: center;
+}
+.fa-bookmark {
+  padding-right: 0.5rem;
+}
+.featured-text-item {
+  padding-right: 1rem;
+  margin-bottom: 0.8rem;
+}
+.our-services-container {
+  max-width: 100%;
+  background-color: #4760ff;
+  padding: 6rem 1rem;
+}
+.our-services-main-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+.our-services-title {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: white;
+}
+.our-services-title h5 {
+  font-weight: 500;
+  font-size: 1rem;
+}
+.our-services-title h2 {
+  font-size: 2rem;
+}
+.card {
+  background-color: white;
+  width: calc(33.33% - 1rem);
+  padding: 4rem 2.5rem;
+}
+.icon-background {
+  background-color: #f2f2f2;
+  display: inline-block;
+  /* text-align: center; it doesn'work */
+  /* line-height: 1.875rem; it doesn't work*/
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.card i {
+  font-size: 1.4rem;
+  /* code that i get in stack overflow */
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 3.125rem;
+  height: 3.125rem;
+}
+.card h4 {
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+}
